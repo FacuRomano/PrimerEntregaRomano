@@ -4,7 +4,7 @@ import '../Navbar/navBar.css';
 export const CartWidget = () => {
 
     return(
-        <i className=" bi bi-bag-plus-fill" style={{ fontSize: '32px' }} ></i>
+        <i className=" iconCart bi bi-bag-plus-fill" style={{ fontSize: '32px' }}><span>{0}</span></i>
     );
         
 }
