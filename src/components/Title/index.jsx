@@ -1,8 +1,10 @@
 import React from "react";
+import '../Navbar/navBar.css';
 
 export const Title = ({greeting}) =>{
+
     return(
-        <h1>{greeting}</h1>
+        <h2 className="tituloProducto">{greeting}</h2>
     );
 }
 

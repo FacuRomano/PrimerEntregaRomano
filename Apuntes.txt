@@ -1,7 +1,7 @@
 30/06
-
 ==========================================================================================================================
 ==========================================================================================================================
+CLASE 3
 SUGAR SYNTAX:
 
 la sugar syntax es un tipo de sintaxis que nos permite reducir las lineas de codigo de una funcion. Optimiza nuestro codigo, hacer mas facil y eficiente su utilizacion.
@@ -54,6 +54,7 @@ TRANSPILING
 Es el proceso de convertir el codigo de un lenguaje espceifico a su representaicon en otro lenguaje. Extiende o simplifica la escritura del lenguaje o representacion original. Lleva un proceso similar al de polifilyng
 
 
+04/7
 ==========================================================================================================================
 ==========================================================================================================================
 CLASE 4
@@ -78,4 +79,9 @@ Son funciones que se pueden agregar dentro de los componentes y permiten agregar
 Siempre comienzan con el prefijo 'use' para que React los identifique.
 Solamente pueden encontrarse en componentes funcionales o dentro de otros hooks.
 
+COMPONENTES DE PRESENTACION:
+Simplemente se limitan a mostrar datos, contienen poca o nula logica asociada a manipulacion del estado.
+Tienen posibilidad de reutilizacion
 
+COMPONENTES CONTENEDORES:
+Su proposito es encapsular a otros componentes y poroporcionarles las propiedades que necesitan.
