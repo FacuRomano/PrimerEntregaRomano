@@ -1,0 +1,81 @@
+30/06
+
+==========================================================================================================================
+==========================================================================================================================
+SUGAR SYNTAX:
+
+la sugar syntax es un tipo de sintaxis que nos permite reducir las lineas de codigo de una funcion. Optimiza nuestro codigo, hacer mas facil y eficiente su utilizacion.
+
+EJEMPLO:
+
+sintaxis normal;
+
+    "function getStatus (student){
+        if(student.grade >= 7){
+            return 'aprobado';
+        }else {
+            return 'desaprobado'
+        }
+    }"
+
+sugar syntax:
+
+    "function getStatus (student){
+        const status = student.grade >= ? 'aprobado' : 'desaprobado';
+        return status;
+    }
+
+    const getStatus = (student) => (student.grade >= 7 ? 'aprobado' : 'desaprobado');
+
+Como se ve en los ejemplos, la sugar syntax simplifica el codigo.
+
+
+==========================================================================================================================
+==========================================================================================================================
+POLYFILLS Y RETROCOMPATIBILIDAD
+
+    "El mundo de los sumadores es invalido por los multiplicadores"
+La retrocompatibilidad es la capacidad de que un proyecto sea compatible en todas los buscadores.
+
+Cuando una tecnologia es incompatible con otra un Polyfill es una manera de resolver un problema nuevo con los recursos que ya teniamos en dicha libreria.
+
+
+==========================================================================================================================
+==========================================================================================================================
+BUNDLING Y WEBPACK
+
+Webpack es un empaquetador de modulos 'module bundler'. Recoge todos los modulos con los que estmeos trabajando y los transforma en Assets que pueda entender el navegador. 
+
+
+==========================================================================================================================
+==========================================================================================================================
+TRANSPILING
+
+Es el proceso de convertir el codigo de un lenguaje espceifico a su representaicon en otro lenguaje. Extiende o simplifica la escritura del lenguaje o representacion original. Lleva un proceso similar al de polifilyng
+
+
+==========================================================================================================================
+==========================================================================================================================
+CLASE 4
+COMPONENTES:
+
+Un componente es un conjunto de elementos que cumplen una funcion especifica en la interfaz del usuario.
+Construyen la jerarquia de todos los elementos.
+Hoy en dia todos los componentes de React se crean a partir de funciones. Los nombres o titulos deben empezar con mayusculas y debe retornar el codigo que va a generar los elementos de la interfaz del ususario UserInterface.
+Pueden tener estados.
+
+
+DISENO MODULAR:
+Los componente permiten separar la interfaz en piezas independientes, reutilizables y nos permiten trabajarlas de forma aislada.
+La aplicacion termina siendo un conjunto de componente trabajando entre si.
+
+ESTADOS:
+Los estados se utilizan para representar la informacion que puede cambiar durante la vida util del componente y afectar su representacion en la UI.
+Todo cambio de estado va a iniciar el proceso de render a partir del nodo en el que se conforma.
+
+HOOK:
+Son funciones que se pueden agregar dentro de los componentes y permiten agregar un estado.
+Siempre comienzan con el prefijo 'use' para que React los identifique.
+Solamente pueden encontrarse en componentes funcionales o dentro de otros hooks.
+
+
